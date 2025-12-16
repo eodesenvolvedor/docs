@@ -1,97 +1,162 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Introdução"
+description: "Bem-vindo à documentação da API BMG Automação - FamTech"
 ---
 
-## Setting up
+## 🚀 Começando
 
-Get your documentation site up and running in minutes.
+Comece a usar nossa API em minutos.
 
 <Card
-  title="Start here"
+  title="Guia Rápido"
   icon="rocket"
-  href="/quickstart"
+  href="/api-documentation#-guia-rápido-de-início"
   horizontal
 >
-  Follow our three step quickstart guide.
+  Siga nosso guia de 3 passos para começar a usar a API imediatamente.
 </Card>
 
-## Make it yours
+## 📚 Documentação Completa
 
-Design a docs site that looks great and empowers your users.
+Explore todos os recursos disponíveis na nossa API.
 
 <Columns cols={2}>
   <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
+    title="Autenticação"
+    icon="key"
+    href="/api-documentation#-autenticação"
   >
-    Edit your docs locally and preview them in real time.
+    Gerencie sessões, faça login e renove tokens de autenticação.
   </Card>
   <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
+    title="Clientes"
+    icon="users"
+    href="/api-documentation#-clientes"
   >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
+    Consulte dados de clientes individualmente ou em lote (até 200 por vez).
   </Card>
   <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
+    title="Ofertas"
+    icon="gift"
+    href="/api-documentation#-ofertas"
   >
-    Auto-generate API documentation from OpenAPI specifications.
+    Consulte ofertas de crédito consignado para seus clientes.
+  </Card>
+  <Card
+    title="Ofertas por Entidade"
+    icon="building"
+    href="/api-documentation#-ofertas-por-entidade"
+  >
+    Consulte ofertas específicas por entidade (1581, 4277, 3, 164).
   </Card>
 </Columns>
 
-## Create beautiful pages
+## 🛠️ Recursos Principais
 
-Everything you need to create world-class documentation.
+Tudo que você precisa para integrar com sucesso.
 
 <Columns cols={2}>
   <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
+    title="Automação BMG Consig"
+    icon="robot"
+    href="/api-documentation#-automação-bmg-consig"
   >
-    Use MDX to style your docs pages.
+    Login automatizado com Puppeteer e resolução de captcha via 2Captcha.
   </Card>
   <Card
-    title="Code samples"
+    title="Consultas em Lote"
+    icon="layer-group"
+    href="/api-documentation#2-consultar-lote"
+  >
+    Processe até 200 consultas por requisição de forma eficiente.
+  </Card>
+  <Card
+    title="Exemplos Práticos"
     icon="code"
-    href="/essentials/code"
+    href="/api-documentation#-exemplos-práticos-avançados"
   >
-    Add sample code to demonstrate how to use your product.
+    Código pronto para usar em JavaScript com exemplos completos.
   </Card>
   <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
+    title="Tratamento de Erros"
+    icon="shield"
+    href="/api-documentation#-tratamento-de-erros"
   >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
+    Aprenda a tratar erros e lidar com diferentes cenários.
   </Card>
 </Columns>
 
-## Need inspiration?
+## 💡 Informações Importantes
 
 <Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
+  title="Base URL"
+  icon="server"
 >
-  Browse our showcase of exceptional documentation sites.
+  `http://localhost:5000`
 </Card>
+
+<Card
+  title="Versão"
+  icon="tag"
+>
+  `2.0.0 - HARDCORE MODE 🚀`
+</Card>
+
+<Card
+  title="Formato"
+  icon="file-code"
+>
+  Todas as respostas são em formato JSON
+</Card>
+
+## 🎯 Entidades Disponíveis
+
+| Entidade | Descrição | Parâmetros Especiais |
+|----------|-----------|---------------------|
+| **1581** | Entidade 1581 | Nenhum |
+| **4277** | Entidade 4277 | Nenhum |
+| **3** | Entidade 3 | Nenhum |
+| **164** | Entidade 164 | `?orgao=145` (obrigatório) |
+
+## 🔑 Fluxo Básico
+
+```
+1. Login → Obter sessionId
+   ↓
+2. Usar sessionId em todas as requisições
+   ↓
+3. Consultar clientes ou ofertas
+   ↓
+4. Logout (opcional) → Remover sessão
+```
+
+## 📖 Exemplos de Código
+
+Todos os endpoints incluem exemplos completos em:
+
+- ✅ **cURL** - Para testes rápidos no terminal
+- ✅ **Postman** - Para testes na interface gráfica
+- ✅ **JavaScript** - Para integração em aplicações
+
+## 🆘 Precisa de Ajuda?
+
+<Card
+  title="Problemas Comuns"
+  icon="circle-question"
+  href="/api-documentation#-dicas-e-problemas-comuns"
+>
+  Encontre soluções para os problemas mais frequentes.
+</Card>
+
+<Card
+  title="Códigos de Erro"
+  icon="triangle-exclamation"
+  href="/api-documentation#-tratamento-de-erros"
+>
+  Entenda os códigos de erro e como tratá-los.
+</Card>
+
+---
+
+**Versão da API**: 2.0.0 - HARDCORE MODE 🚀  
+**Última atualização**: 2024
