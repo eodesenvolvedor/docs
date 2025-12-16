@@ -1,11 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "API BMG Automação - FamTech",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -89,6 +84,7 @@
     {
       "group": "Exemplos Práticos",
       "pages": [
+        "exemplos-praticos/index",
         "exemplos-praticos/fluxo-completo",
         "exemplos-praticos/multiplas-entidades",
         "exemplos-praticos/consultas-lote",
