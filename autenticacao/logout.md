@@ -37,6 +37,7 @@ Remove uma sessão ativa do sistema. Após o logout, o `sessionId` não poderá 
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X POST http://localhost:5000/api/v1/autenticacao/logout \
   -H "Content-Type: application/json" \
@@ -45,6 +46,7 @@ curl -X POST http://localhost:5000/api/v1/autenticacao/logout \
     "sessionId": "seu_session_id"
   }'
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/autenticacao/logout', {
@@ -61,6 +63,7 @@ const response = await fetch('http://localhost:5000/api/v1/autenticacao/logout',
 const data = await response.json();
 console.log(data);
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta

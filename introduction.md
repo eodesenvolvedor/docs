@@ -10,7 +10,7 @@ Comece a usar nossa API em minutos.
 <Card
   title="Guia Rápido"
   icon="rocket"
-  href="/api-documentation#-guia-rápido-de-início"
+  href="/quickstart"
   horizontal
 >
   Siga nosso guia de 3 passos para começar a usar a API imediatamente.
@@ -24,28 +24,28 @@ Explore todos os recursos disponíveis na nossa API.
   <Card
     title="Autenticação"
     icon="key"
-    href="/api-documentation#-autenticação"
+    href="/autenticacao/index"
   >
     Gerencie sessões, faça login e renove tokens de autenticação.
   </Card>
   <Card
     title="Clientes"
     icon="users"
-    href="/api-documentation#-clientes"
+    href="/clientes/index"
   >
     Consulte dados de clientes individualmente ou em lote (até 200 por vez).
   </Card>
   <Card
     title="Ofertas"
     icon="gift"
-    href="/api-documentation#-ofertas"
+    href="/ofertas/index"
   >
     Consulte ofertas de crédito consignado para seus clientes.
   </Card>
   <Card
     title="Ofertas por Entidade"
     icon="building"
-    href="/api-documentation#-ofertas-por-entidade"
+    href="/ofertas-por-entidade/introducao"
   >
     Consulte ofertas específicas por entidade (1581, 4277, 3, 164).
   </Card>
@@ -59,28 +59,28 @@ Tudo que você precisa para integrar com sucesso.
   <Card
     title="Automação BMG Consig"
     icon="robot"
-    href="/api-documentation#-automação-bmg-consig"
+    href="/automacao-bmg-consig/index"
   >
     Login automatizado com Puppeteer e resolução de captcha via 2Captcha.
   </Card>
   <Card
     title="Consultas em Lote"
     icon="layer-group"
-    href="/api-documentation#2-consultar-lote"
+    href="/clientes/consultar-lote"
   >
     Processe até 200 consultas por requisição de forma eficiente.
   </Card>
   <Card
     title="Exemplos Práticos"
     icon="code"
-    href="/api-documentation#-exemplos-práticos-avançados"
+    href="/exemplos-praticos/index"
   >
     Código pronto para usar em JavaScript com exemplos completos.
   </Card>
   <Card
     title="Tratamento de Erros"
     icon="shield"
-    href="/api-documentation#-tratamento-de-erros"
+    href="/tratamento-erros/index"
   >
     Aprenda a tratar erros e lidar com diferentes cenários.
   </Card>
@@ -143,7 +143,7 @@ Todos os endpoints incluem exemplos completos em:
 <Card
   title="Problemas Comuns"
   icon="circle-question"
-  href="/api-documentation#-dicas-e-problemas-comuns"
+  href="/tratamento-erros/codigos-erro"
 >
   Encontre soluções para os problemas mais frequentes.
 </Card>
@@ -151,7 +151,7 @@ Todos os endpoints incluem exemplos completos em:
 <Card
   title="Códigos de Erro"
   icon="triangle-exclamation"
-  href="/api-documentation#-tratamento-de-erros"
+  href="/tratamento-erros/index"
 >
   Entenda os códigos de erro e como tratá-los.
 </Card>

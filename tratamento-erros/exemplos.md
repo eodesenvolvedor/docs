@@ -6,6 +6,7 @@ description: "Exemplos práticos de como tratar erros"
 ## Função com Tratamento Completo
 
 <CodeGroup>
+
 ```javascript JavaScript
 async function consultarOfertasComTratamentoErros(entidade, cpf, matricula, sessionId, orgao = null) {
   try {
@@ -62,11 +63,13 @@ try {
   console.error('❌ Erro:', error.message);
 }
 ```
+
 </CodeGroup>
 
 ## Tratamento com Retry
 
 <CodeGroup>
+
 ```javascript JavaScript
 async function consultarComRetry(url, options, maxRetries = 3) {
   for (let i = 0; i < maxRetries; i++) {
@@ -98,6 +101,7 @@ async function consultarComRetry(url, options, maxRetries = 3) {
   }
 }
 ```
+
 </CodeGroup>
 
 <Info>

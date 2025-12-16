@@ -22,7 +22,7 @@ Realiza login automático e captura os tokens de autenticação necessários par
   Senha do usuário
 </ParamField>
 
-<ParamField body="reuseSession" type="boolean" default="true">
+<ParamField body="reuseSession" default="true" type="boolean">
   Se deve reutilizar uma sessão existente (opcional)
 </ParamField>
 
@@ -51,6 +51,7 @@ Realiza login automático e captura os tokens de autenticação necessários par
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X POST http://localhost:5000/api/v1/autenticacao/login \
   -H "Content-Type: application/json" \
@@ -60,6 +61,7 @@ curl -X POST http://localhost:5000/api/v1/autenticacao/login \
     "reuseSession": true
   }'
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/autenticacao/login', {
@@ -78,6 +80,7 @@ const data = await response.json();
 console.log(data);
 ```
 
+
 ```json JSON
 {
   "username": "seu_usuario",
@@ -85,6 +88,7 @@ console.log(data);
   "reuseSession": true
 }
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta

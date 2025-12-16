@@ -41,9 +41,11 @@ Retorna uma lista de todas as sessões ativas no sistema. Útil para debug e adm
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X GET http://localhost:5000/api/v1/autenticacao/sessoes-ativas
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/autenticacao/sessoes-ativas', {
@@ -53,6 +55,7 @@ const response = await fetch('http://localhost:5000/api/v1/autenticacao/sessoes-
 const data = await response.json();
 console.log(data);
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta

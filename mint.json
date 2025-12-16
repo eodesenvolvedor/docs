@@ -43,6 +43,7 @@
     {
       "group": "Autenticação",
       "pages": [
+        "autenticacao/index",
         "autenticacao/login",
         "autenticacao/refresh-session",
         "autenticacao/logout",
@@ -52,6 +53,7 @@
     {
       "group": "Clientes",
       "pages": [
+        "clientes/index",
         "clientes/consultar-cliente",
         "clientes/consultar-lote"
       ]
@@ -59,6 +61,7 @@
     {
       "group": "Ofertas",
       "pages": [
+        "ofertas/index",
         "ofertas/consultar-ofertas",
         "ofertas/consultar-ofertas-auto",
         "ofertas/consultar-lote"
@@ -77,6 +80,7 @@
     {
       "group": "Automação BMG Consig",
       "pages": [
+        "automacao-bmg-consig/index",
         "automacao-bmg-consig/login-automatizado",
         "automacao-bmg-consig/test-2captcha"
       ]
@@ -94,7 +98,7 @@
     {
       "group": "Tratamento de Erros",
       "pages": [
-        "tratamento-erros/introducao",
+        "tratamento-erros/index",
         "tratamento-erros/codigos-erro",
         "tratamento-erros/exemplos"
       ]
@@ -102,7 +106,7 @@
     {
       "group": "Rotas Legadas",
       "pages": [
-        "rotas-legadas/introducao"
+        "rotas-legadas/index"
       ]
     }
   ],

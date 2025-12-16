@@ -51,6 +51,7 @@ Renova os tokens de autenticação de uma sessão existente, mantendo o mesmo `s
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X POST http://localhost:5000/api/v1/autenticacao/refresh-session \
   -H "Content-Type: application/json" \
@@ -60,6 +61,7 @@ curl -X POST http://localhost:5000/api/v1/autenticacao/refresh-session \
     "password": "sua_senha"
   }'
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/autenticacao/refresh-session', {
@@ -77,6 +79,7 @@ const response = await fetch('http://localhost:5000/api/v1/autenticacao/refresh-
 const data = await response.json();
 console.log(data);
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta

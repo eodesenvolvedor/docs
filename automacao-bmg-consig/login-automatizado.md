@@ -22,11 +22,11 @@ Realiza login automatizado no BMG Consig usando Puppeteer para controlar o naveg
   Senha do BMG Consig
 </ParamField>
 
-<ParamField body="headless" type="boolean" default="false">
+<ParamField body="headless" default="false" type="boolean">
   Se o navegador deve rodar em modo headless (sem interface gráfica)
 </ParamField>
 
-<ParamField body="keepBrowserOpen" type="boolean" default="true">
+<ParamField body="keepBrowserOpen" default="true" type="boolean">
   Se o navegador deve permanecer aberto após o login
 </ParamField>
 
@@ -59,6 +59,7 @@ Realiza login automatizado no BMG Consig usando Puppeteer para controlar o naveg
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X POST http://localhost:5000/api/v1/bmg-consig/login-automation \
   -H "Content-Type: application/json" \
@@ -69,6 +70,7 @@ curl -X POST http://localhost:5000/api/v1/bmg-consig/login-automation \
     "keepBrowserOpen": true
   }'
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/bmg-consig/login-automation', {
@@ -87,6 +89,7 @@ const response = await fetch('http://localhost:5000/api/v1/bmg-consig/login-auto
 const data = await response.json();
 console.log(data);
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta

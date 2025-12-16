@@ -29,9 +29,11 @@ Verifica se a API key do 2Captcha está configurada e acessível. Útil para val
 ## Exemplo de Requisição
 
 <CodeGroup>
+
 ```bash cURL
 curl -X GET http://localhost:5000/api/v1/bmg-consig/test-2captcha
 ```
+
 
 ```javascript JavaScript
 const response = await fetch('http://localhost:5000/api/v1/bmg-consig/test-2captcha', {
@@ -41,6 +43,7 @@ const response = await fetch('http://localhost:5000/api/v1/bmg-consig/test-2capt
 const data = await response.json();
 console.log(data);
 ```
+
 </CodeGroup>
 
 ## Exemplo de Resposta
