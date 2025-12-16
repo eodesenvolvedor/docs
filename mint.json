@@ -43,11 +43,11 @@
     {
       "group": "Autenticação",
       "pages": [
-        "autenticacao/index",
-        "autenticacao/login",
-        "autenticacao/refresh-session",
-        "autenticacao/logout",
-        "autenticacao/sessoes-ativas"
+        "autenticacao/index.md",
+        "autenticacao/login.md",
+        "autenticacao/refresh-session.md",
+        "autenticacao/logout.md",
+        "autenticacao/sessoes-ativas.md"
       ]
     },
     {
