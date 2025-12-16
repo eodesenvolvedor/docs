@@ -1,43 +1,86 @@
-# Mintlify Starter Kit
+# Documentação Mintlify - API BMG Automação
 
-Use the starter kit to get your docs deployed and ready to customize.
+## Estrutura Criada
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+Esta documentação está configurada para uso com [Mintlify](https://mintlify.com).
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+## Arquivos Principais
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+- `mint.json` - Configuração do Mintlify
+- `introduction.md` - Página de introdução
+- `quickstart.md` - Guia rápido de início
 
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## Estrutura de Pastas
 
 ```
-npm i -g mint
+docs/
+├── mint.json
+├── introduction.md
+├── quickstart.md
+├── autenticacao/
+│   ├── login.md
+│   ├── refresh-session.md
+│   ├── logout.md
+│   └── sessoes-ativas.md
+├── clientes/
+│   ├── consultar-cliente.md
+│   └── consultar-lote.md
+├── ofertas/
+│   ├── consultar-ofertas.md
+│   ├── consultar-ofertas-auto.md
+│   └── consultar-lote.md
+├── ofertas-por-entidade/
+│   ├── introducao.md
+│   ├── entidade-1581.md
+│   ├── entidade-4277.md
+│   ├── entidade-3.md
+│   └── entidade-164.md
+├── automacao-bmg-consig/
+│   ├── login-automatizado.md
+│   └── test-2captcha.md
+├── exemplos-praticos/
+│   ├── fluxo-completo.md
+│   ├── multiplas-entidades.md
+│   ├── consultas-lote.md
+│   └── gerenciamento-sessao.md
+├── tratamento-erros/
+│   ├── introducao.md
+│   ├── codigos-erro.md
+│   └── exemplos.md
+└── rotas-legadas/
+    └── introducao.md
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## Como Usar
 
-```
-mint dev
-```
+1. **Conectar ao Mintlify**:
+   - Acesse [mintlify.com](https://mintlify.com)
+   - Conecte seu repositório GitHub
+   - Selecione a pasta `docs`
 
-View your local preview at `http://localhost:3000`.
+2. **Personalizar**:
+   - Edite `mint.json` para ajustar cores, logo, etc.
+   - Adicione logos em `/logo/` (opcional)
+   - Adicione favicon em `/favicon.svg` (opcional)
 
-## Publishing changes
+3. **Deploy**:
+   - O Mintlify faz deploy automático
+   - Atualizações são feitas automaticamente ao fazer push
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## Componentes Mintlify Usados
 
-## Need help?
+- `<Endpoint>` - Exibe endpoints da API
+- `<ParamField>` - Documenta parâmetros
+- `<ResponseField>` - Documenta respostas
+- `<CodeGroup>` - Agrupa exemplos de código
+- `<Card>` - Cards de navegação
+- `<CardGroup>` - Grupos de cards
+- `<Warning>` - Avisos importantes
+- `<Info>` - Informações úteis
 
-### Troubleshooting
+## Próximos Passos
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+1. Adicione logos personalizados
+2. Configure domínio customizado (opcional)
+3. Ajuste cores no `mint.json` conforme sua marca
+4. Adicione mais exemplos conforme necessário

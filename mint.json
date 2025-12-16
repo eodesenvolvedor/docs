@@ -1,0 +1,117 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "API BMG Automação - FamTech",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Suporte",
+      "url": "mailto:suporte@famtech.com.br"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://app.famtech.com.br"
+  },
+  "anchors": [
+    {
+      "name": "Documentação",
+      "icon": "book-open-cover",
+      "url": "https://docs.famtech.com.br"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/famtech"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Começando",
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Autenticação",
+      "pages": [
+        "autenticacao/login",
+        "autenticacao/refresh-session",
+        "autenticacao/logout",
+        "autenticacao/sessoes-ativas"
+      ]
+    },
+    {
+      "group": "Clientes",
+      "pages": [
+        "clientes/consultar-cliente",
+        "clientes/consultar-lote"
+      ]
+    },
+    {
+      "group": "Ofertas",
+      "pages": [
+        "ofertas/consultar-ofertas",
+        "ofertas/consultar-ofertas-auto",
+        "ofertas/consultar-lote"
+      ]
+    },
+    {
+      "group": "Ofertas por Entidade",
+      "pages": [
+        "ofertas-por-entidade/introducao",
+        "ofertas-por-entidade/entidade-1581",
+        "ofertas-por-entidade/entidade-4277",
+        "ofertas-por-entidade/entidade-3",
+        "ofertas-por-entidade/entidade-164"
+      ]
+    },
+    {
+      "group": "Automação BMG Consig",
+      "pages": [
+        "automacao-bmg-consig/login-automatizado",
+        "automacao-bmg-consig/test-2captcha"
+      ]
+    },
+    {
+      "group": "Exemplos Práticos",
+      "pages": [
+        "exemplos-praticos/fluxo-completo",
+        "exemplos-praticos/multiplas-entidades",
+        "exemplos-praticos/consultas-lote",
+        "exemplos-praticos/gerenciamento-sessao"
+      ]
+    },
+    {
+      "group": "Tratamento de Erros",
+      "pages": [
+        "tratamento-erros/introducao",
+        "tratamento-erros/codigos-erro",
+        "tratamento-erros/exemplos"
+      ]
+    },
+    {
+      "group": "Rotas Legadas",
+      "pages": [
+        "rotas-legadas/introducao"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/famtech",
+    "linkedin": "https://www.linkedin.com/company/famtech"
+  }
+}

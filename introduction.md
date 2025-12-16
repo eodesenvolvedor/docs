@@ -1,0 +1,162 @@
+---
+title: "Introdução"
+description: "Bem-vindo à documentação da API BMG Automação - FamTech"
+---
+
+## 🚀 Começando
+
+Comece a usar nossa API em minutos.
+
+<Card
+  title="Guia Rápido"
+  icon="rocket"
+  href="/api-documentation#-guia-rápido-de-início"
+  horizontal
+>
+  Siga nosso guia de 3 passos para começar a usar a API imediatamente.
+</Card>
+
+## 📚 Documentação Completa
+
+Explore todos os recursos disponíveis na nossa API.
+
+<Columns cols={2}>
+  <Card
+    title="Autenticação"
+    icon="key"
+    href="/api-documentation#-autenticação"
+  >
+    Gerencie sessões, faça login e renove tokens de autenticação.
+  </Card>
+  <Card
+    title="Clientes"
+    icon="users"
+    href="/api-documentation#-clientes"
+  >
+    Consulte dados de clientes individualmente ou em lote (até 200 por vez).
+  </Card>
+  <Card
+    title="Ofertas"
+    icon="gift"
+    href="/api-documentation#-ofertas"
+  >
+    Consulte ofertas de crédito consignado para seus clientes.
+  </Card>
+  <Card
+    title="Ofertas por Entidade"
+    icon="building"
+    href="/api-documentation#-ofertas-por-entidade"
+  >
+    Consulte ofertas específicas por entidade (1581, 4277, 3, 164).
+  </Card>
+</Columns>
+
+## 🛠️ Recursos Principais
+
+Tudo que você precisa para integrar com sucesso.
+
+<Columns cols={2}>
+  <Card
+    title="Automação BMG Consig"
+    icon="robot"
+    href="/api-documentation#-automação-bmg-consig"
+  >
+    Login automatizado com Puppeteer e resolução de captcha via 2Captcha.
+  </Card>
+  <Card
+    title="Consultas em Lote"
+    icon="layer-group"
+    href="/api-documentation#2-consultar-lote"
+  >
+    Processe até 200 consultas por requisição de forma eficiente.
+  </Card>
+  <Card
+    title="Exemplos Práticos"
+    icon="code"
+    href="/api-documentation#-exemplos-práticos-avançados"
+  >
+    Código pronto para usar em JavaScript com exemplos completos.
+  </Card>
+  <Card
+    title="Tratamento de Erros"
+    icon="shield"
+    href="/api-documentation#-tratamento-de-erros"
+  >
+    Aprenda a tratar erros e lidar com diferentes cenários.
+  </Card>
+</Columns>
+
+## 💡 Informações Importantes
+
+<Card
+  title="Base URL"
+  icon="server"
+>
+  `http://localhost:5000`
+</Card>
+
+<Card
+  title="Versão"
+  icon="tag"
+>
+  `2.0.0 - HARDCORE MODE 🚀`
+</Card>
+
+<Card
+  title="Formato"
+  icon="file-code"
+>
+  Todas as respostas são em formato JSON
+</Card>
+
+## 🎯 Entidades Disponíveis
+
+| Entidade | Descrição | Parâmetros Especiais |
+|----------|-----------|---------------------|
+| **1581** | Entidade 1581 | Nenhum |
+| **4277** | Entidade 4277 | Nenhum |
+| **3** | Entidade 3 | Nenhum |
+| **164** | Entidade 164 | `?orgao=145` (obrigatório) |
+
+## 🔑 Fluxo Básico
+
+```
+1. Login → Obter sessionId
+   ↓
+2. Usar sessionId em todas as requisições
+   ↓
+3. Consultar clientes ou ofertas
+   ↓
+4. Logout (opcional) → Remover sessão
+```
+
+## 📖 Exemplos de Código
+
+Todos os endpoints incluem exemplos completos em:
+
+- ✅ **cURL** - Para testes rápidos no terminal
+- ✅ **Postman** - Para testes na interface gráfica
+- ✅ **JavaScript** - Para integração em aplicações
+
+## 🆘 Precisa de Ajuda?
+
+<Card
+  title="Problemas Comuns"
+  icon="circle-question"
+  href="/api-documentation#-dicas-e-problemas-comuns"
+>
+  Encontre soluções para os problemas mais frequentes.
+</Card>
+
+<Card
+  title="Códigos de Erro"
+  icon="triangle-exclamation"
+  href="/api-documentation#-tratamento-de-erros"
+>
+  Entenda os códigos de erro e como tratá-los.
+</Card>
+
+---
+
+**Versão da API**: 2.0.0 - HARDCORE MODE 🚀  
+**Última atualização**: 2024
